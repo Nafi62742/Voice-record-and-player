@@ -1,0 +1,69 @@
+﻿Terms and Conditions of Anti-Harassment Amulet
+
+
+Article 1. About these Terms and Conditions
+
+
+1. The terms and conditions of the application (hereinafter referred to as the "Terms and Conditions") shall apply to all actions taken by the user in using the services provided by Ataraxia LLC (hereinafter referred to as the "Company") in the "Anti-Harassment Amulet" (hereinafter referred to as the "Application").
+2. These Terms and Conditions set forth the terms of use of the Application. The use of the Application by the user shall be governed by these Terms and Conditions as well as by domestic and foreign laws and regulations applicable to the use of the Application.
+3. By using the Application, the user shall be deemed to have accepted all of the provisions contained in these Terms and Conditions.
+4. The Company shall reserve the right to modify these Terms and Conditions without the need to obtain consent from individual users in the following cases:
+The modification of these Terms and Conditions conforms to the common interest of the user; and
+The modification of the Terms and Conditions does not conflict with the purposes of the Service Usage Agreement and is reasonable in light of the need for the modification, the appropriateness of the modified content, and other circumstances requiring the modification.
+5. With the exception of cases otherwise specified by the Company, the modified Terms and Conditions shall be effective from the time they are displayed on the Application.
+6. In case the user cannot agree to the modified Terms and Conditions, it shall delete the Application from the user's smartphone or other mobile devices (hereinafter referred to as "Mobile Device").
+7. The user’s use of the Service after any modifications to these Terms and Conditions become effective shall be deemed acceptance of all provisions contained in the modified Terms and Conditions.
+
+
+Article 2. Terms of Use, etc.
+
+
+1. The user downloading and installing the Application on their smartphones and other mobile devices shall do so at the user’s own risk. The Company does not guarantee that the Application is supported by all mobile devices.
+2. The use of the Application by the user shall become possible when the user is able to start using the application after downloading it. The Application may only be downloaded and installed on the relevant mobile devices.
+3. The copyright and all other rights to the Application shall belong to the Company. Unless expressly stated otherwise, nothing in these Terms and Conditions shall be deemed as granting the user a transfer of copyright or any other rights in the Application.
+4. The user shall be prohibited from doing any of the following:
+1. Engaging in use, creation, distribution, or sale of external tools that affect the Application.
+2. Engaging in disassembling, decompiling, reverse engineering, or otherwise analyzing the source code, structure, ideas, etc. of the Application.
+3. Engaging in reproduction, transmission, transfer, loan, translation, adaptation, modification, or combination of the Application with other software.
+4. Engaging in destruction of any security device or security code incorporated into the Application.
+5. Engaging in any other infringement of the rights belonging to the Application Provider with respect to the Application.
+6. Engaging in the use of the Application in an attempt to infringe other copyrighted works.
+7. Encouraging any of the above acts by a third party.
+8. Engaging in removal or alteration of any copyright notice or other rights notice affixed to the Application.
+9. Engaging in any other infringement of the rights of third parties.
+10. Engaging in any other activities that the Company deems inappropriate.
+5. In cases where the user violates any of these Terms and Conditions, the Company may terminate the user's use of the Application under these Terms and Conditions at any point in time without liability to the user in any way.
+6. Regarding the usage fees for paid functions (hereinafter referred to as "Usage Fee"), the user shall comply with the "Google Play Terms of Service" on the premise that the user agrees to the same.
+7. Any mid-month upgrade or downgrade of the Application by the user will be reflected in a timely manner, but the higher of the two plans will apply to the monthly charge.
+8. The user may unsubscribe from the Service in accordance with the withdrawal procedure specified by the Company. 
+
+
+Article 3. Indemnification
+
+
+1. The Company shall not be liable for any damages incurred by the user as a result of the use of the Application.
+2. The Company shall not be liable for any damages caused by defects, errors, or failures in the Application that result in the inability to use it.
+3. If the contract between the Company and the user is a consumer contract as per the Consumer Contract Act, the preceding paragraphs 1 and 2 shall not apply. However, the Company shall not be liable for any damage caused by special circumstances in the event of default or tort resulting from negligence other than its own gross negligence.
+Further, compensation for damages incurred by the user as a result of the Company’s default or tort, other than gross negligence, shall be limited to the amount of the Usage Fee the user has paid for the month in which such damages occurred.
+4. The Application shall be of the content that the company is able to provide at the time. No guarantee is made as to the completeness, accuracy, applicability, usefulness, availability, safety, and certainty of the information, content, and software provided through the Application.
+5. If the user causes damage to a third party in the process of using the Application, the user shall compensate for it at the user’s own expense and responsibility.
+6. The Company may, from time to time, provide information or advice to the user. However, the Company shall not be held responsible for its consequences.
+7. The Company is not obligated to repair bugs or other problems in the Application, nor is it responsible for enhancing or improving it. However, there may be cases where an updated version of the Application or upgrading information is provided to the user. In this case, such updated versions or upgrading information, etc. shall be deemed part of the Application, and naturally, these Terms and Conditions shall also apply to them.
+8. The Company shall not be held responsible for any damage to the data in the Application caused due to any external factors.
+
+
+Article 4. Handling of Personal Information
+
+
+The Company shall appropriately handle personal information obtained in the use of the Service in accordance with its "Privacy Policy".
+https://pawa-amu.com/pp/
+
+
+Article 5. Governing law and jurisdiction
+
+
+1. These Terms and Conditions shall be governed by and construed in accordance with the laws of Japan.
+2. Any dispute arising out of or in connection with these Terms and Conditions shall be subject to the exclusive jurisdiction of the Kobe District Court in the first instance.
+
+
+End of document

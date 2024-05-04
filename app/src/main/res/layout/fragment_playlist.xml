@@ -1,0 +1,166 @@
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.playlist.PlaylistFragment">
+    <include layout="@layout/fragment_shared_layout" />
+
+<TextView
+    android:id="@+id/list_text"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="@string/list"
+    android:textSize="20sp"
+    >
+</TextView>
+
+    <TextView
+        android:id="@+id/noRecordData"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/no_recorded_data_found"
+        android:textSize="10sp"/>
+    <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+        android:layout_margin="8dp"
+
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/master_data"
+            android:layout_gravity="start"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@color/blue"
+                android:gravity="start|center"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:text="@string/master_data_title"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/record_item"
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:padding="5dp"
+                    android:id="@+id/startLayout"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:id="@+id/playIcon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/player" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:id="@+id/leftLayout"
+                    android:paddingStart="2dp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="start|center"
+                    >
+                    <TextView
+                        android:id="@+id/total_time"
+                        android:layout_width="wrap_content"
+                        android:alpha="0.5"
+                        android:layout_height="wrap_content"
+                        android:text="00:00:00" />
+                    <LinearLayout
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingStart="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="start|center"
+                        >
+                        <TextView
+                            android:id="@+id/dateTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/datetime_recording_hint" />
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/record_state_TV"
+                            android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/datetime_recording_hint" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textStyle="bold"
+    android:layout_margin="10dp"
+    android:text="@string/cut_and_saved_data"
+    android:textSize="15sp"
+    >
+
+</TextView>
+
+    <TextView
+        android:id="@+id/noEditedData"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/no_edited_data_found"
+        android:textSize="10sp" />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/playlistRecyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</LinearLayout>

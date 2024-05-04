@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Switch track when it's on -->
+    <item android:state_checked="true">
+        <shape>
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+            <solid android:color="#FFFFFF" /> <!-- Red color -->
+            <stroke android:color="@color/black" android:width="2dp" /> <!-- Red border -->
+            <corners android:radius="15dp" /> <!-- Adjust the radius as needed -->
+        </shape>
+    </item>
+
+    <!-- Switch track when it's off -->
+    <item android:state_checked="false">
+        <shape>
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+
+            <solid android:color="#808080" /> <!-- Deep grey color -->
+            <stroke android:color="@color/black" android:width="2dp" /> <!-- Deep grey border -->
+            <corners android:radius="15dp" /> <!-- Adjust the radius as needed -->
+        </shape>
+    </item>
+</selector>

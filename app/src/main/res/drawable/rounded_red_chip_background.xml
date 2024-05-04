@@ -1,0 +1,31 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape for the red border -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" /> <!-- Transparent background -->
+            <corners android:radius="16dp" /> <!-- Rounded corners -->
+            <stroke
+                android:width="2dp"
+            android:color="@color/Red" /> <!-- Red border color -->
+        </shape>
+    </item>
+
+    <!-- Content of the Chip (text) -->
+    <item android:top="4dp" android:left="4dp" android:right="4dp" android:bottom="4dp">
+        <selector>
+            <!-- Define different states for the chip -->
+            <item android:state_checked="true">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/Red" /> <!-- Background color when checked -->
+                    <corners android:radius="12dp" /> <!-- Rounded corners when checked -->
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" /> <!-- Default background color -->
+                    <corners android:radius="12dp" /> <!-- Default rounded corners -->
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

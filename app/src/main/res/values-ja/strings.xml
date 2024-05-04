@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">パワハラのお守り</string>
+    <string name="title_home">ホーム</string>
+    <string name="title_playlist">リスト</string>
+    <string name="title_setting">設定</string>
+    <string name="terms_string">利用規約を見る</string>
+    <string name="powerharras_text1">パワハラ</string>
+    <string name="powerharras_text2">のお守り</string>
+    <string name="thanku_text">ダウンロード \nありがとうございます </string>
+    <string name="terms_text">ご利用には「マイク」の許可と \n<span id="push_notification">「利用規約」</span>の同意をお願いします。</string>
+    <string name="plans_agree_text">規約のご同意 \nありがとうございます </string>
+    <string name="plans_Text_title">ご利用のプランを選択してください。 </string>
+    <string name="plan_detail_title_txt">下記のプランでよろしいでしょうか?</string>
+    <string name="plan_popup_description_txt">プラン変更に伴う金額の変更 タイミングは各ストアの サブスクリプション規約に従っています。 (有料プラン から無料プランへのダウングレード時は、お客様側での 各ストアのサブスクリプション解約が必要です。)</string>
+    <string name="phone_state_permission_checking_text">電話によって中断された音声録音を確認するには、電話状態の許可が必要です。</string>
+    <string name="plan_popup_decide_txt">決定する</string>
+    <string name="schedule_txt">スケジュール</string>
+    <string name="schedule_name_text">スケジュール名</string>
+    <string name="delete_schedule">スケジュールの削除</string>
+    <string name="end_recording">"録音終了  "</string>
+    <string name="start_recording">"録音開始  "</string>
+    <string name="default_time">00:00</string>
+    <string name="friday">金</string>
+    <string name="saturday">土</string>
+    <string name="sunday">日</string>
+    <string name="monday">月</string>
+    <string name="tuesday_short">火</string>
+    <string name="wednesday_short">水</string>
+    <string name="thursday_short">木</string>
+
+    <string name="how_to_use">使い方</string>
+
+
+    <string name="edit_intent">編集</string>
+
+
+    <!-- Progress dialog text for loading, recording, or saving... -->
+    <string name="progress_dialog_loading">読み込み中…</string>
+    <string name="progress_dialog_recording">録音…</string>
+    <string name="progress_dialog_saving">保存中…</string>
+    <string name="progress_dialog_cancel">キャンセル</string>
+    <string name="progress_dialog_stop">停止</string>
+
+    <!-- Image button descriptions for accessibility -->
+
+    <string name="start_marker">スタートマーカー</string>
+    <string name="end_marker">エンドマーカー</string>
+    <string name="rewind">巻き戻し</string>
+    <string name="play">再生</string>
+    <string name="stop">停止</string>
+    <string name="ffwd">早送り</string>
+    <string name="save_button">保存</string>
+
+    <string name="menu_save">保存</string>
+
+    <!--
+     File Save dialog
+     -->
+
+    <string name="file_save_title">名前を付けて保存:</string>
+
+    <string name="file_save_button_cancel">キャンセル</string>
+    <!--
+     Success and error messages
+     -->
+
+    <string name="alert_title_success">成功</string>
+    <string name="alert_title_failure">エラー</string>
+    <string name="alert_ok_button">OK</string>
+
+
+    <string name="play_error">このメディア ファイルを再生できません</string>
+    <string name="no_unique_filename">一意のファイル名が見つかりません</string>
+    <string name="record_error">音声の録音中にエラーが発生しました</string>
+    <string name="too_small_error">それほど小さいファイルは保存できません。ファイルを長くしてみてください。</string>
+    <string name="write_error">ファイルの書き込みエラー</string>
+    <string name="read_error">ファイルの読み取りエラー</string>
+
+    <string name="no_space_error">SD カードがいっぱいです。このファイルを保存するのに十分なスペースがありません。</string>
+
+    <string name="bad_extension_error">申し訳ありませんが、このアプリケーションはまだ次の種類のファイルを編集できません。</string>
+    <string name="no_extension_error">申し訳ありませんが、.wav のような拡張子が付いていないと、このアプリケーションではファイルを編集できません。</string>
+
+
+    <string name="search_edit_box">検索</string>
+
+    <string name="master_data_title">マスターデータ [タップで試聴&amp;切り取り]</string>
+    <string name="cut_and_saved_data">編集済みリスト</string>
+    <string name="list">リスト</string>
+    <string name="datetime_recording_hint">日付時刻</string>
+    <string name="change_plan">プラン変更</string>
+    <string name="terms_of_service">利用規約</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="preview_cut_please">[試聴/切取り]開始時刻を</string>
+    <string name="select_the_start_time">選択してください。</string>
+    <string name="next_btn_instructions">※「次へ」を押すと録音停止し現在のデータを保存します</string>
+    <string name="cut_instructions">※一度に[試聴/切取り]できる範囲は最大1時間です</string>
+    <string name="dont_proceed_instructions">※30秒ほど経っても次の画面に進まない、またはアプリが停 止した場合は他のアプリを終了してから再度お試しください</string>
+
+    <string name="cancel">キャンセル</string>
+    <string name="next">次へ</string>
+    <string name="date_format">yyyy/mm/dd</string>
+    <string name="demo_start_end_time">2022/10/1 00:00 – 2022/10/1 01:00</string>
+    <string name="duration">間隔</string>
+    <string name="name">名前</string>
+    <string name="date">日付</string>
+    <string name="rename">名前変更</string>
+    <string name="delete">削除</string>
+    <string name="recording_bear">録音状態</string>
+    <string name="share">共有</string>
+    <string name="pause">一時停止</string>
+    <string name="add_15">+15秒</string>
+    <string name="backward15">-15秒</string>
+    <string name="please_enter_a_file_name">ファイル名を入力してください。</string>
+    <string name="terms_header">"利用規約をご覧になり \n「規約に同意する」を押してください "</string>
+    <string name="from_here_start">ここから（開始） </string>
+    <string name="to_here_end">ここまで（終了） </string>
+    <string name="file_name">ファイル名</string>
+    <string name="save_plan">プランを保存しました</string>
+    <string name="plan">プラン</string>
+    <string name="close">閉じる</string>
+    <string name="delete_question">削除しますか？</string>
+
+    <string name="trimming_stop_recording">切取り【録音停止区域】 </string>
+    <string name="audio_record_premission_checking">音声を録音するには音声録音許可が必要です</string>
+    <string name="notification_permission_checking_text">通知を受け取るには通知許可が必要です</string>
+    <string name="settings">設定</string>
+    <string name="try_again">やり直し</string>
+    <string name="terms_showing_btn">利用規約を見る</string>
+    <string name="english">日本語</string>
+    <string name="term_popup_title">利用規約をご覧になり\n
+「規約に同意する」を押してください </string>
+    <string name="terms_confirm_btn">規約に同意する </string>
+    <string name="on">ON</string>
+    <string name="details">詳細 </string>
+
+    <string name="monthly">月額</string>
+    <string name="free">無料</string>
+    <string name="way_back_time_approx">遡れる時間／約</string>
+    <string name="min">分 </string>
+    <string name="plan_price_extension">円（税込）/月</string>
+    <string name="hour_plan">時間プラン</string>
+    <string name="hours">時間 </string>
+    <string name="master_plan_approx">マスターデータ保存時間...約</string>
+    <string name="yen_per_month">円/月</string>
+    <string name="popup_reminder_switch">アプリが実行されていないときに通知する</string>
+
+
+    <string name="no_edited_data_found">編集したデータは見つかりませんでした。</string>
+    <string name="no_recorded_data_found">記録されたデータが見つかりません。</string>
+    <string name="recording">録音中</string>
+    <string name="not_possible_because_it_is_being_played">再生中のため録音不可</string>
+    <string name="masterdata">マスターデータ</string>
+    <string name="mo">月</string>
+    <string name="tu">火</string>
+    <string name="we">水</string>
+    <string name="th">木</string>
+    <string name="fr">金</string>
+    <string name="sa">土</string>
+    <string name="su">日</string>
+    <string name="start">始める</string>
+    <string name="end">終わり</string>
+    <string name="restore_purchase">購入の復元</string>
+    <string name="about_cancellation_of_subscription">サブスクリプションの解約について</string>
+    <string name="starts_from">から起動</string>
+    <string name="days">日々</string>
+    <string name="no_data_to_trim">録音ファイルが見つかりません。他の日時をお試しください。</string>
+    <string name="start_time_is_required">録音開始時間は必須です</string>
+    <string name="end_time_is_required">録音終了時間は必須です</string>
+    <string name="no_days_selected">日が選択されていません</string>
+    <string name="schedule_name_is_required">スケジュール名は必須です</string>
+    <string name="schedule_with_the_same_name_already_exists">同じ名前のスケジュールがすでに存在します</string>
+    <string name="yen">円</string>
+    <string name="no_file_found_to_save">保存するファイルが見つかりません。</string>
+    <string name="please_open_the_app_to_start_recording">アプリを開いて録音を開始してください</string>
+    <string name="accessibility_service_description">Android 10 以降でバックグラウンドでの通話録音を許可するには、このサービスを有効にします。</string>
+    <string name="original_file_not_found">元のファイルが見つかりません</string>
+    <string name="directory_not_found">ディレクトリが見つかりません。</string>
+
+
+    <string name="no_space_left_on_device">デバイスにスペースが残っていない</string>
+    <string name="foreground_service">フォアグラウンドサービス</string>
+    <string name="running">ランニング…</string>
+    <string name="notification_permission_needed_for_notification">通知 通知には許可が必要です</string>
+    <string name="file_permission_needed">ファイル権限が必要です</string>
+    <string name="phone_state_permission_needed">電話の状態の許可が必要です</string>
+    <string name="processing">処理…</string>
+    <string name="mb">" MB以上の空き容量が必要です"</string>
+    <string name="date_is_required">日付は必須です</string>
+    <string name="minute_is_required">分が必要です</string>
+    <string name="hour_is_required">時間は必須です</string>
+    <string name="invalid_date">無効な日付</string>
+    <string name="wrong_time_input">時刻の入力が間違っています</string>
+    <string name="cut">切取る</string>
+    <string name="disable_power_saving">パフォーマンスを向上させるために、省電力モードを無効にしてください。</string>
+    <string name="failed_to_rename_the_file">ファイル名の変更に失敗しました。</string>
+    <string name="same_name_or_empty_name_field">同じ名前または空の名前フィールド。</string>
+    <string name="unable_to_delete_file">ファイルを削除できません。</string>
+    <string name="sorry_wrong_minute">申し訳ありません、分が間違っていました</string>
+    <string name="sorry_wrong_hour">申し訳ありません、間違った時間です</string>
+    <string name="background_recording_service">バックグラウンド録音サービス</string>
+    <string name="turn_on_accessibility">バックグラウンドで録音するには、次の設定を有効にする必要があります。\n\nダウンロードしたアプリ > バックグラウンド録音サービス > Use バックグラウンド録音サービス\n\n\n制限付きの問題が表示されている場合は、次の手順を実行してください。
+\n\n-> 現在のアプリのアプリ情報に移動します。
+\n-> 3 点アイコンをタップします。
+\n-> 「制限付き設定を許可する」を選択します。
+\n-> もう一度チェック。</string>
+    <string name="need_proper_end_time">適切な終了時間が必要です。</string>
+    <string name="select_schedule_time">スケジュール時間を選択</string>
+    <string name="exit_string">終了してもよろしいですか?</string>
+    <string name="exit">出口</string>
+    <string name="something_went_wrong">何か問題が発生しました。</string>
+    <string name="no_internet_connection">インターネット接続がありません</string>
+
+    <!--    The text below cannot be edited. - 以下のテキストは編集できません。-->
+    <string name="myrecordingdirectory">RecordingDirectory</string>
+    <string name="savecutdirectory">SaveCutDirectory</string>
+    <string name="outputtempdirectory">OutputTempDirectory</string>
+    <string name="harassment_amulet">Harassment Amulet</string>
+    <string name="app_id">ca-app-pub-5300644298722695~6819890729</string>
+    <string name="unit_id">ca-app-pub-5300644298722695/8898139594</string>
+    <string name="interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="delete_icon">Delete Icon</string>
+    <string name="share_icon">Share Icon</string>
+    <string name="rename_icon">Rename Icon</string>
+    <string name="cancel_icon">Cancel Icon</string>
+
+
+
+</resources>

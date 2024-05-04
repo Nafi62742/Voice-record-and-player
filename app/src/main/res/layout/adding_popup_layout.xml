@@ -1,0 +1,325 @@
+<!-- common_popup_layout.xml -->
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cancel_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/cancel"/>
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/start_recording"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:elevation="40dp">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/startTimeCard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="10dp">
+
+                    <TextView
+                        android:id="@+id/start_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_weight="1"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button_shape"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:inputType="text"
+                        android:maxLength="5"
+                        android:text="@string/default_time"
+                        android:textSize="40sp" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/end_recording"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/endTimeCard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="10dp">
+                <TextView
+                    android:id="@+id/end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_shape"
+                    android:focusable="true"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:maxLength="5"
+                    android:text="@string/default_time"
+                    android:textSize="40sp" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/appbgcolor"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/week_days"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipSpacingHorizontal="1dp">
+
+
+
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipMonday"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        app:chipBackgroundColor="@color/white"
+                        android:layout_height="wrap_content"
+                        app:chipStrokeColor="@color/grey"
+                        android:textSize="11sp"
+
+                        app:chipStrokeWidth="1dp"
+                        android:text="@string/monday" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipTuesday"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        app:chipBackgroundColor="@color/white"
+                        app:chipStrokeColor="@color/grey"
+                        app:chipStrokeWidth="1dp"
+                        android:textSize="11sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tuesday_short" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipWednesday"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:chipStrokeColor="@color/grey"
+                        app:chipStrokeWidth="1dp"
+                        android:textSize="11sp"
+                        app:chipBackgroundColor="@color/white"
+                        android:text="@string/wednesday_short" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipThursday"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:chipStrokeColor="@color/grey"
+                        app:chipStrokeWidth="1dp"
+                        android:textSize="11sp"
+                        app:chipBackgroundColor="@color/white"
+                        android:text="@string/thursday_short" />
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipFriday"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:chipBackgroundColor="@color/white"
+                        app:chipStrokeColor="@color/grey"
+                        app:chipStrokeWidth="1dp"
+                        android:textSize="11sp"
+                        android:background="@drawable/rounded_red_chip_background"
+                        android:text="@string/friday" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipSaturday"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        app:chipBackgroundColor="@color/white"
+                        app:chipStrokeColor="@color/grey"
+                        app:chipStrokeWidth="1dp"
+                        android:textSize="11sp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/saturday" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipSunday"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        app:chipBackgroundColor="@color/white"
+                        app:chipStrokeColor="@color/grey"
+                        app:chipStrokeWidth="1dp"
+                        android:textSize="11sp"
+
+                        android:layout_height="wrap_content"
+                        android:text="@string/sunday" />
+
+                </com.google.android.material.chip.ChipGroup>
+            </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp">
+<!--            <com.google.android.material.textfield.TextInputLayout-->
+<!--                android:id="@+id/outlinedTextField"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                -->
+
+<!--                >-->
+
+                <EditText
+                    android:id="@+id/outlinedTextField"
+                    android:textColorHint="@color/grey"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textCapWords"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:maxLength="20"
+                    android:hint="@string/schedule_name_text"
+                    />
+
+<!--            </com.google.android.material.textfield.TextInputLayout>-->
+            </androidx.cardview.widget.CardView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/popup_reminder_switch"/>
+
+                <Switch
+                    android:id="@+id/notification_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:track="@drawable/switch_track_selector"
+                    android:thumb="@drawable/switch_thumb_selector"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/save_schedule_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_height="40dp"
+                    app:cardCornerRadius="15dp"
+                    android:elevation="1dp"
+                    app:cardBackgroundColor="@color/Red">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/save_button" />
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/cancel_schedule"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="15sp"
+                    android:textColor="@color/Red"
+                    android:src="@drawable/cancel"
+                    android:text="@string/delete_schedule"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
+</layout>

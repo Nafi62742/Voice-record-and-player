@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Switch thumb when it's on -->
+    <item android:state_checked="true">
+        <shape>
+
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+            <solid android:color="@color/Red" /> <!-- Red color -->
+            <size android:width="24dp" android:height="24dp" />
+            <corners android:radius="15dp" /> <!-- Adjust size as needed -->
+        </shape>
+    </item>
+
+    <!-- Switch thumb when it's off -->
+    <item android:state_checked="false">
+        <shape>
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+            <solid android:color="#FFFFFF" /> <!-- Deep grey color -->
+            <size android:width="24dp" android:height="24dp" />
+            <stroke android:color="#808080" android:width="1dp" />
+            <corners android:radius="15dp" /> <!-- Adjust size as needed -->
+        </shape>
+    </item>
+</selector>

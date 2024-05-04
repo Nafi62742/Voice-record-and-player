@@ -1,0 +1,45 @@
+﻿Privacy Policy
+The following is the privacy policy (hereinafter referred to as "Policy") of Ataraxia LLC (hereinafter referred to as "Company") regarding the handling of users' personal information in the services provided on this website (hereinafter referred to as "Services").
+
+
+1. Secure management of personal information
+The Company shall take appropriate organizational, physical, personnel, and technical measures to protect personal information. The Company shall also take necessary and appropriate measures to prevent leakage, loss, or damage of personal information handled by it, and to securely manage other personal information.
+
+
+2. Compliance with respect to the acquisition of personal information, etc.
+The Company shall comply with the following when acquiring, using, and providing personal information.
+
+
+(1) Acquisition of personal information
+To the extent necessary for the operation of the Service, the Company shall acquire personal information (including name, date of birth, address, telephone number, e-mail address, credit card number, etc.) from general users of the Service (hereinafter referred to as "Users") or advertisers of the Service (hereinafter referred to as "Advertisers"), either automatically via applications or by having those parties register such information themselves.
+
+
+(2) Intended use of personal information
+The Company shall not use personal information acquired by us beyond the scope necessary to achieve the intended use as defined below, except as required by law or with the consent of the individual concerned.
+① Operation, maintenance, and management of the Service
+② Provision and promotion of services through the Service
+③ Conducting questionnaires to improve the quality of the Service
+
+
+(3) Provision of personal information
+Except as required by law, the Company shall not provide personal information acquired with the consent of an individual to any third party without obtaining the prior consent of the individual. With regard to the disclosure, correction, addition, deletion, or notification of the purpose of use of personal information at the request of an individual, the Company shall carry out these actions in accordance with laws and regulations, and shall appropriately respond to opinions and consultations.
+
+
+3. Change in the purpose of use of personal information
+Basically, the Company shall not change the purposes of use defined in the preceding paragraph, with the exception of cases where the Company has obtained the prior consent of the individual concerned. However, this shall not apply to changes made by publicly announcing in advance the purpose of use after the change, to the extent that there is a reasonably recognized relationship with the purpose of use before the change.
+
+
+4. Provision of personal information to a third party
+In cases where the Company outsources all or part of the handling of personal information to a third party, the Company shall fully screen the eligibility of such third party and supervise the outsourced party as necessary and appropriate to ensure that such personal information is managed securely.
+
+
+5. Improvement and review of personal information handling practices
+The Company shall inspect its handling of personal information, management systems, and efforts, and shall work to continuously improve and review them.
+
+
+6. Disposal of personal information
+The Company shall delete or dispose of personal information when it becomes no longer necessary in light of the purposes for which such information is used. Such deletion or disposal shall be carried out only to the extent necessary for the performance of business operations, using necessary and appropriate methods to prevent risks such as its leakage to outside parties.
+
+
+7. Contact for complaints and consultation
+The Company shall appoint the following contact and responsible persons for the handling of personal information.

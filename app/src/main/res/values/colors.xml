@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="appbgcolor">#E8E4DE</color>
+    <color name="Lavender">#E8ECF2</color>
+    <color name="grey">#B6B6B6</color>
+    <color name ="Red">#D3163C</color>
+    <color name ="light_red">#F4AEBB</color>
+    <color name ="blue">#0049FF</color>
+    <color name ="brown">#806003</color>
+
+
+
+    <color name="waveform_selected">#000000</color>
+    <color name="waveform_unselected">#70000000</color>
+    <color name="waveform_unselected_bkgnd_overlay">#ffffff</color>
+    <color name="selection_border">#FFFFFF</color>
+    <color name="playback_indicator">#000000</color>
+    <color name="grid_line">#66ffffff</color>
+    <color name="timecode">#673AB7</color>
+    <color name="timecode_shadow">#673AB7</color>
+
+    <color name="type_bkgnd_alarm">#88880000</color>
+    <color name="type_bkgnd_ringtone">#88008888</color>
+    <color name="type_bkgnd_notification">#88666600</color>
+    <color name="type_bkgnd_music">#88000000</color>
+    <color name="type_bkgnd_unsupported">#88cccccc</color>
+
+
+
+</resources>
